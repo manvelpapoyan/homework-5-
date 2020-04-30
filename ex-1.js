@@ -22,6 +22,9 @@ i=Math.floor((start+end)/2);
 return i;
 
 }
+a=[1,10,20,30,40,50,60,70,80,90,100,200,300,400,500,600,700,800,900,1000]
+
+console.log(binarySearch(a,200)
 
 //recursia-ov
 
@@ -33,12 +36,13 @@ let i=Math.floor((start+end)/2)
   }
 
   if(num>arr[i]){
-  start=i+1;
   return binarySearch(arr,num,i+1,end)
   }
   if(num<arr[i]) {
-
-  end=i-1;
   return binarySearch(arr,num,start,i-1)
   }
 }
+
+a=[1,10,20,30,40,50,60,70,80,90,100,200,300,400,500,600,700,800,900,1000]
+
+console.log(binarySearch(a,70)
